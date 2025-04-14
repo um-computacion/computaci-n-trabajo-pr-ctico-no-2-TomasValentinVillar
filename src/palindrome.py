@@ -1,2 +1,2 @@
-def is_palindrome(word):
-    pass
+def is_palindrome(word:str) -> bool:
+    word= word.lower().replace(" ","").replace(":","").replace(",","").replace(".","").replace("?","")
